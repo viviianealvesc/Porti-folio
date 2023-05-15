@@ -7,3 +7,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+    list-style: none;
+}
+
+.menu a {
+    margin: 30px;
+    
+}
+
+.logo {
+    margin-right: 50%;
+}
