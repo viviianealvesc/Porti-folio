@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +19,9 @@ ul {
 
 .menu a {
     margin: 30px;
+    text-decoration: none;
+    font-family: 'Foldit', cursive;
+    font-size: 20px;
     
 }
 
