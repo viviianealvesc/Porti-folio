@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Righteous & display=swap');
 
 
 *{
@@ -7,9 +7,27 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(45deg , #7B68EE, #9370DB, #8A2BE2);
+    background-size: 200% 200%;
+    animation: colors 5s ease infinite;
 }
 
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    border-bottom: 0.5px solid #755aab;
+}
 ul {
     display: flex;
     justify-content: end;
@@ -20,11 +38,35 @@ ul {
 .menu a {
     margin: 30px;
     text-decoration: none;
-    font-family: 'Foldit', cursive;
     font-size: 20px;
-    
+    color: black;
+}
+
+.menu a:hover {
+    color: #fff;
+    transition: 1s;
 }
 
 .logo {
     margin-right: 50%;
 }
+
+        /*HOME*/
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem-principal {
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+span {
+    color: #f9f9f9;
+}
+
+
+     /*SOBRE*/
