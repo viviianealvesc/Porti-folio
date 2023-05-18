@@ -6,6 +6,17 @@
     padding: 0;
 }
 
+:root {
+    --cor1: #7B68EE;
+    --cor2: #9370DB;
+    --cor3: #8A2BE2;
+    --gradient: #7B68EE, #9370DB, #8A2BE2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Righteous', cursive;
     background-image: linear-gradient(45deg , #7B68EE, #9370DB, #8A2BE2);
@@ -26,12 +37,17 @@ body {
 }
 
 header {
-    border-bottom: 0.5px solid #755aab;
+    background-color: #7256aa8b;
+    margin: 0 auto;
+    max-width: 700px;
+    border-radius: 0 0 30px 30px;
 }
+
+
 ul {
     display: flex;
-    justify-content: end;
-    margin: 30px;
+    justify-content: center;
+    padding: 30px;
     list-style: none;
 }
 
@@ -47,9 +63,6 @@ ul {
     transition: 1s;
 }
 
-.logo {
-    margin-right: 50%;
-}
 
         /*HOME*/
 #home {
@@ -58,6 +71,10 @@ ul {
     align-items: center;
     justify-content: space-around;
     padding-bottom: 40px;
+}
+
+#home h1 {
+    font-size: 2rem;
 }
 
 .imagem-principal {
@@ -74,6 +91,7 @@ span {
 #sobre {
     background-color: #7256aa8b;
 }
+
 .sobre-mim {
     display: flex;
     flex-direction: column;
@@ -89,7 +107,7 @@ span {
 
 .sobre-mim h1 {
     color: #fff;
-    padding: 30px;
+    padding: 25px;
 }
 
       /*HABILIDADES*/
@@ -98,6 +116,16 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#habilidades h1{
+    padding: 4rem ;
+    color: #fff;
+}
+
+.card-principal { 
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Deixa com duas colunas*/
 }
 
 .card {
