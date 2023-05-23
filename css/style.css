@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    cursor: url('/image/programacao.png'), auto;
     font-family: 'Righteous', cursive;
     background-image: linear-gradient(45deg , #7B68EE, #9370DB, #8A2BE2);
     background-size: 200% 200%;
