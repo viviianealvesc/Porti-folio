@@ -38,9 +38,9 @@ body {
 }
 
 header {
-    background-color: #7256aa8b;
     margin: 0 auto;
     max-width: 700px;
+    background-color: #7256aadc;
     border-radius: 0 0 30px 30px;
 }
 
@@ -116,7 +116,7 @@ span {
 
 .title {
     color: #fff;
-    padding: 25px;
+    padding-bottom: 20px;
 }
 
       /*HABILIDADES*/
